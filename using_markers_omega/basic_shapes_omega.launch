@@ -1,0 +1,4 @@
+<launch>
+   <node pkg="using_markers_omega" type="basic_shapes_omega_exe" name="basic_shapes_omega" launch-prefix="gnome-terminal -e"/>
+   <node pkg="rviz" type="rviz" name="rviz"/>
+</launch>
